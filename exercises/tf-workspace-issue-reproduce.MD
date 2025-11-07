@@ -1,4 +1,4 @@
-# Exercise: Reproduce Terraform workspace / S3 bucket collision
+xß# Exercise: Reproduce Terraform workspace / S3 bucket collision
 
 Goal
 - Create a Jenkins pipeline that creates a Terraform workspace named `sandbox-<shortsha>` and deploys an S3 bucket named `<shortsha>-nov7-2025` (use the current date in the bucket name). The pipeline should wait (sleep) 2 minutes after creating the workspace and bucket. Trigger the job twice in quick succession with the same `shortsha` to reproduce collisions:
